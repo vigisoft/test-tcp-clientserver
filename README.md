@@ -1,16 +1,5 @@
-# Delphi/Lazarus Template
+# Cliente / Servidor TCP para testes
 
- Delphi/Lazarus template project
-
-## Delphi
-
-### RTTI
-
-If you don't use RTTI, put follow lines at start of your project file (.dpr):
-
-```delphi
-{$WEAKLINKRTTI ON}
-{$RTTI EXPLICIT METHODS([]) PROPERTIES([]) FIELDS([])}
-```
-
-It'll save ~500 kb of your generated *.exe*.
+Aplicativo feito para testes de conexão TCP via socket, podendo tanto ser cliente quanto servidor.
+ 
+ **O código é todo cagado, foi feito tudo de qualquer jeito, na pressa.**
