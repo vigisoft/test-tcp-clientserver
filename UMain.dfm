@@ -126,7 +126,7 @@ object Form1: TForm1
           Left = 3
           Top = 3
           Width = 145
-          Height = 24
+          Height = 27
           Align = alClient
           Alignment = taCenter
           Caption = 'Endere'#231'o IP / DNS'
@@ -146,7 +146,7 @@ object Form1: TForm1
           Left = 154
           Top = 3
           Width = 145
-          Height = 24
+          Height = 27
           Align = alClient
           Alignment = taCenter
           Caption = 'Porta'
@@ -323,7 +323,7 @@ object Form1: TForm1
           Left = 3
           Top = 3
           Width = 296
-          Height = 24
+          Height = 27
           Align = alClient
           Alignment = taCenter
           Caption = 'Porta'
@@ -605,6 +605,7 @@ object Form1: TForm1
           Font.Style = []
           ParentFont = False
           TabOrder = 0
+          OnChange = Edit5Change
         end
         object CheckBox5: TCheckBox
           AlignWithMargins = True
